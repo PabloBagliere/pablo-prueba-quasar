@@ -1,8 +1,8 @@
 # histrix-quasar-client
 Histrix Quasar client
 
-<img src="https://img.shields.io/npm/v/quasar-ui-histrix-client-prueba.svg?label=quasar-ui-histrix-client-prueba">
-<img src="https://img.shields.io/npm/v/quasar-app-extension-histrix-client-prueba.svg?label=quasar-app-extension-histrix-client-prueba">
+<img src="https://img.shields.io/npm/v/quasar-ui-pablo-prueba-quasar.svg?label=quasar-ui-pablo-prueba-quasar">
+<img src="https://img.shields.io/npm/v/quasar-app-extension-pablo-prueba-quasar.svg?label=quasar-app-extension-pablo-prueba-quasar">
 
 # Structure
 * [/ui](ui) - standalone npm package

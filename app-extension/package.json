@@ -1,5 +1,5 @@
 {
-  "name": "quasar-app-extension-histrix-client-prueba-prueba",
+  "name": "quasar-app-extension-pablo-prueba-quasar",
   "version": "0.0.78",
   "description": "Hitrix client Quasar App extension prueba",
   "author": "Pablo Bagliere",
@@ -12,7 +12,7 @@
   "bugs": "",
   "homepage": "",
   "dependencies": {
-    "quasar-ui-histrix-client-prueba-prueba": "latest"
+    "quasar-ui-pablo-prueba-quasar": "latest"
   },
   "engines": {
     "node": ">= 8.9.0",
