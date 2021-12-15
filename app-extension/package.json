@@ -12,7 +12,7 @@
   "bugs": "",
   "homepage": "",
   "dependencies": {
-    "quasar-ui-histrix-client": "latest"
+    "quasar-ui-histrix-client": "github:PabloBagliere/histrix-quasar-client/quasar-ui-histrix-client"
   },
   "engines": {
     "node": ">= 8.9.0",
