@@ -1,18 +1,18 @@
 {
-  "name": "quasar-app-extension-histrix-client",
-  "version": "0.0.77",
-  "description": "Hitrix client Quasar App extension",
-  "author": "Luis M. Melgratti <luis@mundoit.com.ar>",
+  "name": "quasar-app-extension-histrix-client-prueba-prueba",
+  "version": "0.0.78",
+  "description": "Hitrix client Quasar App extension prueba",
+  "author": "Pablo Bagliere",
   "license": "MIT",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luismm75/histrix-quasar-client"
+    "url": "https://github.com/PabloBagliere/histrix-quasar-client"
   },
   "bugs": "",
   "homepage": "",
   "dependencies": {
-    "quasar-ui-histrix-client": "github:PabloBagliere/histrix-quasar-client/quasar-ui-histrix-client"
+    "quasar-ui-histrix-client-prueba-prueba": "latest"
   },
   "engines": {
     "node": ">= 8.9.0",

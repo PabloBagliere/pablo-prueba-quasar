@@ -1,7 +1,7 @@
 {
-  "name": "quasar-ui-histrix-client",
-  "version": "0.0.77",
-  "author": "Luis M. Melgratti <luis@mundoit.com.ar>",
+  "name": "quasar-ui-histrix-client-prueba-prueba",
+  "version": "0.0.78",
+  "author": "Pablo bagliere",
   "description": "Histrix Quasar client components",
   "license": "MIT",
   "module": "dist/index.esm.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luismm75/histrix-quasar-client"
+    "url": "https://github.com/PabloBagliere/histrix-quasar-client"
   },
   "bugs": "",
   "homepage": "",

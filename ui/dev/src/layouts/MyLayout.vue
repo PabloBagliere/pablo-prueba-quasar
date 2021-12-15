@@ -11,7 +11,7 @@
         />
 
         <q-toolbar-title>
-          quasar-ui-histrix-client v{{ version }}
+          quasar-ui-histrix-client-prueba v{{ version }}
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>

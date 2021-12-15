@@ -1,13 +1,13 @@
-# Quasar App Extension histrix-client
+# Quasar App Extension histrix-client-prueba
 
 > Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
 
-[![npm](https://img.shields.io/npm/v/quasar-app-extension-histrix-client.svg?label=quasar-app-extension-histrix-client)](https://www.npmjs.com/package/quasar-app-extension-histrix-client)
-[![npm](https://img.shields.io/npm/dt/quasar-app-extension-histrix-client.svg)](https://www.npmjs.com/package/quasar-app-extension-histrix-client)
+[![npm](https://img.shields.io/npm/v/quasar-app-extension-histrix-client-prueba.svg?label=quasar-app-extension-histrix-client-prueba)](https://www.npmjs.com/package/quasar-app-extension-histrix-client-prueba)
+[![npm](https://img.shields.io/npm/dt/quasar-app-extension-histrix-client-prueba.svg)](https://www.npmjs.com/package/quasar-app-extension-histrix-client-prueba)
 
 # Install
 ```bash
-quasar ext add histrix-client
+quasar ext add histrix-client-prueba
 ```
 Quasar CLI will retrieve it from NPM and install the extension.
 
@@ -17,7 +17,7 @@ Quasar CLI will retrieve it from NPM and install the extension.
 
 # Uninstall
 ```bash
-quasar ext remove histrix-client
+quasar ext remove histrix-client-prueba
 ```
 
 # Info

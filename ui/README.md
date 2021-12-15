@@ -1,7 +1,7 @@
 # Component HistrixClient
 
-[![npm](https://img.shields.io/npm/v/quasar-ui-histrix-client.svg?label=quasar-ui-histrix-client)](https://www.npmjs.com/package/quasar-ui-histrix-client)
-[![npm](https://img.shields.io/npm/dt/quasar-ui-histrix-client.svg)](https://www.npmjs.com/package/quasar-ui-histrix-client)
+[![npm](https://img.shields.io/npm/v/quasar-ui-histrix-client-prueba.svg?label=quasar-ui-histrix-client-prueba)](https://www.npmjs.com/package/quasar-ui-histrix-client-prueba)
+[![npm](https://img.shields.io/npm/dt/quasar-ui-histrix-client-prueba.svg)](https://www.npmjs.com/package/quasar-ui-histrix-client-prueba)
 
 # Component HistrixClient
 > Short description of the component
@@ -19,8 +19,8 @@ Create and register a boot file:
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-histrix-client'
-import 'quasar-ui-histrix-client/dist/index.css'
+import Plugin from 'quasar-ui-histrix-client-prueba'
+import 'quasar-ui-histrix-client-prueba/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -28,10 +28,10 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-histrix-client/dist/index.css"></style>
+<style src="quasar-ui-histrix-client-prueba/dist/index.css"></style>
 
 <script>
-import { Component as HistrixClient } from 'quasar-ui-histrix-client'
+import { Component as HistrixClient } from 'quasar-ui-histrix-client-prueba'
 
 export default {
   components: {
@@ -45,8 +45,8 @@ export default {
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-histrix-client'
-import 'quasar-ui-histrix-client/dist/index.css'
+import Plugin from 'quasar-ui-histrix-client-prueba'
+import 'quasar-ui-histrix-client-prueba/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -54,10 +54,10 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-histrix-client/dist/index.css"></style>
+<style src="quasar-ui-histrix-client-prueba/dist/index.css"></style>
 
 <script>
-import { Component as HistrixClient } from 'quasar-ui-histrix-client'
+import { Component as HistrixClient } from 'quasar-ui-histrix-client-prueba'
 
 export default {
   components: {
@@ -76,16 +76,16 @@ Add the following tag(s) after the Quasar ones:
 ```html
 <head>
   <!-- AFTER the Quasar stylesheet tags: -->
-  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-histrix-client/dist/index.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-histrix-client-prueba/dist/index.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <!-- at end of body, AFTER Quasar script(s): -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-histrix-client/dist/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-histrix-client-prueba/dist/index.umd.min.js"></script>
 </body>
 ```
 If you need the RTL variant of the CSS, then go for the following (instead of the above stylesheet link):
 ```html
-<link href="https://cdn.jsdelivr.net/npm/quasar-ui-histrix-client/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/quasar-ui-histrix-client-prueba/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
 ```
 
 # Setup

@@ -8,13 +8,13 @@
 
 function extendConf (conf) {
   // register our boot file
-  conf.boot.push('~quasar-app-extension-histrix-client/src/boot/register.js')
+  conf.boot.push('~quasar-app-extension-histrix-client-prueba/src/boot/register.js')
 
   // make sure app extension files & ui package gets transpiled
-  conf.build.transpileDependencies.push(/quasar-app-extension-histrix-client[\\/]src/)
+  conf.build.transpileDependencies.push(/quasar-app-extension-histrix-client-prueba[\\/]src/)
 
   // make sure the stylesheet goes through webpack to avoid SSR issues
-  conf.css.push('~quasar-ui-histrix-client/src/index.sass')
+  conf.css.push('~quasar-ui-histrix-client-prueba/src/index.sass')
 }
 
 module.exports = function (api) {
@@ -25,7 +25,7 @@ module.exports = function (api) {
   api.compatibleWith('@quasar/app', '^1.1.0 || ^2.0.0')
 
   // Uncomment the line below if you provide a JSON API for your component
-  // api.registerDescribeApi('HistrixClient', '~quasar-ui-histrix-client/src/components/HistrixClient.json')
+  // api.registerDescribeApi('HistrixClient', '~quasar-ui-histrix-client-prueba/src/components/HistrixClient.json')
 
   // We extend /quasar.conf.js
   api.extendQuasarConf(extendConf)
