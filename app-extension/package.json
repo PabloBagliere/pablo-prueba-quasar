@@ -1,18 +1,18 @@
 {
   "name": "quasar-app-extension-pablo-prueba-quasar",
-  "version": "0.0.78",
+  "version": "0.0.79",
   "description": "Hitrix client Quasar App extension prueba",
   "author": "Pablo Bagliere",
   "license": "MIT",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PabloBagliere/histrix-quasar-client"
+    "url": "https://github.com/PabloBagliere/pablo-prueba-quasar"
   },
   "bugs": "",
   "homepage": "",
   "dependencies": {
-    "quasar-ui-pablo-prueba-quasar": "latest"
+    "quasar-ui-pablo-prueba-quasar": "^0.0.78"
   },
   "engines": {
     "node": ">= 8.9.0",
