@@ -1,6 +1,6 @@
 {
   "name": "quasar-ui-pablo-prueba-quasar",
-  "version": "0.0.82",
+  "version": "0.0.83",
   "author": "Pablo bagliere",
   "description": "Histrix Quasar client components",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "chalk": "^2.4.2",
     "cssnano": "^4.1.10",
     "fs-extra": "^8.1.0",
-    "node-sass": "^7.0.0",
+    "node-sass": "^4.14.1",
     "open": "^7.3.0",
     "postcss": "^8.1.9",
     "postcss-rtl": "^1.5.0",
