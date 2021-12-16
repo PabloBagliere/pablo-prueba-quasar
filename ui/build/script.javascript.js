@@ -6,18 +6,27 @@ const uglify = require('uglify-es')
 const buble = require('@rollup/plugin-buble')
 const json = require('@rollup/plugin-json')
 const { nodeResolve } = require('@rollup/plugin-node-resolve')
+const replace = require('@rollup/plugin-replace')
+
+const { version } = require('../package.json')
 
 const buildConf = require('./config')
 const buildUtils = require('./utils')
 
 const rollupPlugins = [
+  replace({
+    preventAssignment: false,
+    values: {
+      __UI_VERSION__: `'${ version }'`
+    }
+  }),
   nodeResolve({
     extensions: ['.js'],
     preferBuiltins: false
   }),
   json(),
-  commonjs(),
-  VuePlugin(/* VuePluginOptions */),
+  // commonjs(),
+  // VuePlugin(/* VuePluginOptions */),
   buble({
     objectAssign: 'Object.assign'
   })
@@ -27,7 +36,7 @@ const builds = [
   {
     rollup: {
       input: {
-        input: pathResolve('entry/index.esm.js')
+        input: pathResolve('../src/index.esm.js')
       },
       output: {
         file: pathResolve('../dist/index.esm.js'),
@@ -42,7 +51,7 @@ const builds = [
   {
     rollup: {
       input: {
-        input: pathResolve('entry/index.common.js')
+        input: pathResolve('../src/index.common.js')
       },
       output: {
         file: pathResolve('../dist/index.common.js'),
@@ -57,7 +66,7 @@ const builds = [
   {
     rollup: {
       input: {
-        input: pathResolve('entry/index.umd.js')
+        input: pathResolve('../src/index.umd.js')
       },
       output: {
         name: 'histrixClient',
@@ -109,7 +118,7 @@ function addAssets (builds, type, injectName) {
           output: {
             file: addExtension(pathResolve(`../dist/${type}/${file}`), 'umd'),
             format: 'umd',
-            name: `histrixClient.${injectName}.${name}`
+            name: `pablo-prueba-quasar.${injectName}.${name}`
           }
         },
         build: {
